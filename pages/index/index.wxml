@@ -1,13 +1,15 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<!--logs.wxml-->
+<view class="container log-list">
+  <image src="../img/timg.jpg" class="img1"></image>
+  <view class="message">
+    <view>武永琴</view>  
+    <view class="msg">邮箱<text>1608953449@qq.com</text><button>拨打</button></view> 
+    <view class="msg">手机<text>17636633571</text><button>复制</button></view>  
+    <view class="msg">职业<text>全栈开发</text><button>复制</button></view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="item">
+    <view class="font">生成海报</view>
+    <view class="font">拨打电话</view>
+    <view class="font">分享好友</view>
   </view>
 </view>
