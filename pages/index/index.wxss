@@ -8,7 +8,7 @@
   height: 750rpx;
 }
 .img1{
-  width: 750px;
+  width: 410px;
   height: 300rpx;
 }
 .message{
@@ -57,4 +57,13 @@
   width: 250rpx;
   height: 70rpx;
   text-align: center;
+  margin-top: 20rpx;
+}
+.item>.font>.image>image{
+  width: 100rpx;
+  height: 70rpx;
+}
+.item>.font>.image3>button>image{
+  width: 100rpx;
+  height: 70rpx;
 }
